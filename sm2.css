@@ -1,0 +1,169 @@
+*{
+
+    margin:0;
+    padding:0;
+
+}
+.main{
+
+    width:100%;
+    background-image: url(chai.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow-x: scroll;
+
+    
+    height:100vh;
+   
+    height: 109vh;
+}
+.bar
+{
+width: 100vw;
+height:75px;
+margin: auto;
+
+}
+.icon{
+
+    width:200px;
+    float:left;
+    height:70px;
+}
+
+.logo{
+
+    color:orange;
+    font-size: 30px;
+    font-family:Arial;
+    padding-left: 20px;
+    float:left;
+    padding-top: 10px;
+    
+    
+    }
+.menu{
+
+    width:400px;
+    float:left;
+    height:70px;
+
+}
+nav ul{
+
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+nav ul li{
+    list-style: none;
+    margin-left:62px;
+    margin-top: 27px;
+    font-size:13px;
+
+}
+nav ul li a{
+
+    text-decoration: none;
+    color:yellow;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight:bold;
+    transition: 0.4s ease-in-out;
+}
+nav ul li a:hover{
+    color:violet;
+}
+nav ul ul{
+    position:absolute;
+    top:60px;
+    display:none;
+    color: #ee2828;
+    
+}
+
+nav ul li:hover > ul{
+    display:block;
+    line-height: 0%;
+}
+ nav ul ul li{
+    width:150px;
+    float:none;
+    display:list-item;
+    position:relative;
+   
+
+}
+.one{
+    width:100%;
+    position: absolute;
+top:50%;
+    
+    text-align: center;
+    color:red;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 7px;
+list-style: none;
+}
+.table-container{
+    padding: 0 10%;
+    margin: 40px auto 0;
+    top:50%;
+
+}
+.table{
+    width:100%;
+    top:50%;
+    border-collapse:collapse;
+    align-content: center;
+}
+.heading{
+    font-size:40px;
+    text-align:center;
+    color:skyblue;
+    margin-bottom:40px;
+    top:40%;
+
+}
+.table thead{
+    background-color:#ee2828;
+    top:50%;
+}
+
+.table thead tr th{
+
+font-size: 14px;
+font-weight:600;
+letter-spacing: 0.35px;
+color:#ffffff;
+opacity:1;
+padding:8px;
+vertical-align:top;
+border:1px solid #dee2e685;
+
+}
+.table tbody tr td{
+    
+font-size:14px;
+letter-spacing:0.35px;
+font-weight:normal;
+color:#f1f1f1;
+background-color:#3c3f44;
+padding:6px;
+text-align:centre;
+border:1px solid #dee2e685;
+
+}
+.table tbody tr td .btn{
+width:130px;
+text-decoration: none;
+line-height: 35px;
+display:block;
+text-align: center;
+background-color:rgb(220, 60, 87);
+
+}

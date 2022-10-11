@@ -1,0 +1,181 @@
+*{
+
+    margin:0;
+    padding:0;
+  
+
+}
+.main{
+
+    width:100vw;
+    background-image: url(sai.jpg);
+overflow-x: hidden;
+    width: 100vw;
+    padding: 0px;
+    margin:0px;
+background-attachment: fixed;
+background-size:cover;
+    background-repeat: no-repeat;
+   height:100vh;
+
+   
+}
+.bar
+{
+width: 100vw;
+height:75px;
+margin: auto;
+
+}
+.icon{
+
+    width:200px;
+    float:left;
+    height:70px;
+}
+
+.logo{
+
+    color:orange;
+    font-size: 30px;
+    font-family:Arial;
+    padding-left: 20px;
+    float:left;
+    padding-top: 10px;
+    
+    
+    }
+.menu{
+
+    width:400px;
+    float:left;
+    height:70px;
+
+}
+nav ul{
+
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+nav ul li{
+    list-style: none;
+    margin-left:62px;
+    margin-top: 27px;
+    font-size:13px;
+
+}
+nav ul li a{
+
+    text-decoration: none;
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    transition: 0.4s ease-in-out;
+}
+nav ul li a:hover{
+    color:red;
+}
+nav ul ul{
+    position:absolute;
+    top:60px;
+    display:none;
+}
+
+nav ul li:hover > ul{
+    display:block;
+}
+nav ul ul li{
+    width:150px;
+    float:none;
+    display:list-item;
+    position:relative;
+
+}
+
+
+.search{
+    width:330px;
+    float:left;
+    margin-left:270px;
+
+}
+.srch{
+
+
+
+    font-family:'Times New Roman', Times, serif;
+    width:200px;
+    height:40px;
+    background:transparent;
+    border:1px solid white;
+    margin-top:13px;
+    color:#ff7200;
+    border-right: none;
+    font-size: 16px;
+    float:left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+
+
+
+    width:100px;
+    height:40px;
+    background: #ff7200;
+    border:2px solid #ff7200;
+     margin-top:13px;
+    color:white;
+    font-size:15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.btn:focus{
+    outline:none;
+}
+.srch:focus{
+    outline:none;
+}
+.content{
+    width:100%;
+    position: absolute;
+    top:50%;
+    transform:translateY(-50%);
+    text-align: center;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+
+
+.content .cn{
+    width:150px;
+    height: 50px;
+    background:#ff7200;
+    border:none;
+    margin-bottom:10px;
+    margin-left:20px;
+    font-size:18px;
+
+
+}
+
+button{
+    width:200px;
+    padding:15px 0;
+    text-align:center;
+    margin:20px 10px;
+    border-radius:25px;
+    font-weight:bold;
+    border:2px solid black;
+    background:transparent;
+    color:#fff;
+    cursor:pointer;
+    position:relative;
+    
+}

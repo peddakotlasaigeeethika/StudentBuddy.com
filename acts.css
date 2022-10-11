@@ -1,0 +1,32 @@
+*{
+
+    margin:0;
+    padding:0;
+
+}
+.main{
+    background-attachment:fixed ;
+    background-image:url(act.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 50px;
+    font-size: 20px;
+    color:white;
+
+}
+.law{
+    text-align: center;
+    color:rgb(188, 250, 81);
+}
+.laws{
+text-align: center;
+color:rgb(133, 202, 254)
+}.three{
+    color:rgb(36, 174, 237);
+}
+.four{
+    color:rgb(36, 174, 237);
+}
+.two{
+    color:rgb(36, 174, 237);
+}
