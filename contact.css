@@ -10,7 +10,10 @@ section{
     height:100vh;
     display: flex;
     align-items:center;
-    line-height: 50px;;
+    line-height: 50px;
+    background-image: fixed;
+    background-repeat: no-repeat;
+
 
 }
 .contact{
@@ -19,7 +22,7 @@ section{
     padding:50px;
     background: rgba(255,255,255,.2);
     box-shadow: 0 5px 15px rgba(0,0,0,0.5);
-    left:30%
+    left:30%;
 }
 .image{
     align-items: center;
